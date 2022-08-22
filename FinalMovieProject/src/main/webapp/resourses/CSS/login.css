@@ -1,0 +1,120 @@
+body{
+	background-color: #ebecf0;
+}
+.modal-content{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebecf0;
+    width: 80%;
+    height: auto;
+    border: none;
+}
+.modal-content .login{
+    background-color: #ebecf0;
+}
+.modal-content .login 
+p,
+input,
+select,
+textarea,
+button {
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+.modal-content div,
+p {
+    color: #babecc;
+    text-shadow: 1px 1px 1px white;
+}
+.modal-content form {
+    padding: 16px;
+    width: 320px;
+    margin: 0 auto;
+}
+.modal-content .Topic h1{
+    padding: 10px 0;
+    text-align: center;
+    color: #ae1100;
+    font-weight: 700;
+    font-size: 20px;
+}
+.modal-content .Topic h2{
+    padding: 10px 0;
+    text-align: center;
+}
+.modal-content .Topic .alert{
+    color: red;
+}
+.modal-content button,
+input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 white;
+}
+.modal-content label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+.modal-content input {
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #babecc,inset -5px -5px 10px white;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+
+}
+.modal-content button {
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ae1100;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.modal-content .Forgot{
+    color: #4D4F4F;
+}
+.modal-content button:hover{
+    box-shadow: -2px -2px 5px white, 2px 2px 5px #babecc ;
+}
+.modal-content button:active{
+    box-shadow: inset 1px 1px 2px #babecc ,
+        inset -1px -1px 2px white;
+}
+.modal-content .link{
+    text-decoration: none;
+    color: #babecc;
+    width: 100%;
+    display: flex;
+    padding-left: 100px;
+}
+.modal-content .link:hover{
+    color: #ae1100;
+}
+.modal-content select{
+     border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 white;
+}
+.modal-content .sex{
+    color: black;
+}
+.modal-content .member{
+    color: black;
+}
+.modal-content .forgot{
+    color: black;
+}
